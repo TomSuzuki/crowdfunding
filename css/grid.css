@@ -1,0 +1,39 @@
+#frame_menu {
+	grid-area: frame_menu;
+}
+
+#frame_head {
+	grid-area: frame_head;
+}
+
+#frame_foot {
+	grid-area: frame_foot;
+}
+
+#frame_content1 {
+	grid-area: frame_content1;
+}
+
+#frame_content2 {
+	grid-area: frame_content2;
+}
+
+body {
+	display: grid;
+	grid-template-areas: "frame_menu" "frame_head" "frame_content1" "frame_content2" "frame_foot";
+	grid-template-rows: 1fr;
+}
+
+#frame_social {
+	grid-area: frame_social;
+}
+
+#frame_top {
+	grid-area: frame_top;
+}
+
+#frame_head {
+	display: grid;
+	grid-template-areas: "frame_top frame_social";
+}
+

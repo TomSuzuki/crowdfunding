@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #EFEFEF;
+
+	background-color: #EEEEEE;
+	background-image:
+	 radial-gradient(#CCCCCC 1px, transparent 1px);
+	background-size: 20px 20px;
+}
+
+* {
+	font-weight: bold;
+	font-family: "ヒラギノ角ゴ Pro W9", "Hiragino Kaku Gothic ProN", "メイリオ", "Osaka", "游ゴシック", Meiryo, sans-serif;
+}
+
+#frame_menu {
+	width: 100vw;
+	height: 96px;
+	box-sizing: border-box;
+	padding: 0 2em;
+	display: flex;
+	align-items: center;
+}
+
+#frame_menu h2 {
+	font-size: xx-large;
+}
