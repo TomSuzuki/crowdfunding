@@ -1,28 +1,35 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #EFEFEF;
-
 	background-color: #EEEEEE;
-	background-image:
-	 radial-gradient(#CCCCCC 1px, transparent 1px);
+	background-image: radial-gradient(#CCCCCC 1px, transparent 1px);
 	background-size: 20px 20px;
 }
 
 * {
-	font-weight: bold;
-	font-family: "ヒラギノ角ゴ Pro W9", "Hiragino Kaku Gothic ProN", "メイリオ", "Osaka", "游ゴシック", Meiryo, sans-serif;
+	font-weight: lighter;
+	font-family: "ヒラギノ角ゴ Pro W1", "Hiragino Kaku Gothic ProN", "メイリオ", "Osaka", "游ゴシック", Meiryo, sans-serif;
 }
+
+/* --- 後で分ける --- */
 
 #frame_menu {
 	width: 100vw;
-	height: 96px;
+	height: 6em;
 	box-sizing: border-box;
-	padding: 0 2em;
+	padding: auto;
 	display: flex;
 	align-items: center;
+	background-color: chocolate;
 }
 
 #frame_menu h2 {
 	font-size: xx-large;
+}
+
+#frame_head {
+	background-color: rgba(0, 0, 0, 0.11);
+	width: 100%;
+	text-align: center;
+	padding: 2em;
 }
