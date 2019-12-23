@@ -13,6 +13,7 @@ body {
 	background-color: var(--Color_White1);
 	/*background-image: radial-gradient(#CCCCCC 1px, transparent 1px);
 	background-size: 20px 20px;*/
+	background-attachment: fixed;
 	background-image: url("../img/free-wood-patterns-04.jpg");
 	min-height: 100vh;
 	display: flex;
