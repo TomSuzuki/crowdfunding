@@ -4,11 +4,30 @@ body {
 	background-color: #EEEEEE;
 	background-image: radial-gradient(#CCCCCC 1px, transparent 1px);
 	background-size: 20px 20px;
+	min-height: 100vh;
 }
 
 * {
 	font-weight: lighter;
 	font-family: "ヒラギノ角ゴ Pro W1", "Hiragino Kaku Gothic ProN", "メイリオ", "Osaka", "游ゴシック", Meiryo, sans-serif;
+}
+
+/* --- テスト用 --- */
+
+.button {
+	text-decoration: none;
+	padding: .8em;
+	border: 1px solid #000000;
+	display: inline-block;
+	min-width: 120px;
+	background-color: #EEEEEE00;
+	color: #111111;
+	transition: background-color .5s, color .5s;
+}
+
+.button:hover{
+	background-color: #111111;
+	color: #FFFFFF;
 }
 
 /* --- 後で分ける --- */
@@ -32,4 +51,13 @@ body {
 	width: 100%;
 	text-align: center;
 	padding: 2em;
+}
+
+#frame_foot {
+	background-color: black;
+	width: 100%;
+	padding: 2em;
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 0;
 }
