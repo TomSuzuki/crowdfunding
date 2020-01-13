@@ -1,0 +1,44 @@
+.btn-social-square {
+    display: inline-block;
+    text-decoration: none;
+    width: 50px;
+    margin: 2px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 23px;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    overflow: hidden;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.btn-social-square i {
+    line-height: 50px;
+}
+
+.btn-social-square:hover {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.btn-social-square--twitter {
+    background: #22b8ff;
+}
+
+.btn-social-square--facebook {
+    background: #6680d8;
+}
+
+.btn-social-square--hatebu {
+    background: #49a8fb;
+}
+
+.btn-social-square--pocket {
+    background: #ff6d82;
+}
+
+.btn-social-square--feedly {
+    background: #7bda72;
+}
