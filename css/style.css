@@ -46,7 +46,8 @@ body {
 
 #main {
     margin-top: 2em;
-    padding: 0 2em;
+    width: 100%;
+    text-align: center;
 }
 
 #news {
@@ -67,6 +68,11 @@ body {
 #news li {
     padding: .75em 1em;
     border-bottom: 1px solid var(--Color_White2);
+}
+
+#sub {
+    width: 100%;
+    text-align: center;
 }
 
 #foot {
