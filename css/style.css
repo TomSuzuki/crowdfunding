@@ -39,7 +39,7 @@ body {
 }
 
 #sns {
-    margin-top: 2em;
+    margin-top: 3em;
     width: 100%;
     text-align: center;
 }
@@ -48,6 +48,15 @@ body {
     margin-top: 2em;
     width: 100%;
     text-align: center;
+}
+
+#main--img img {
+    padding: .5em;
+    box-sizing: border-box;
+}
+
+#main--text {
+    margin-right: 20%;
 }
 
 #news {
@@ -85,7 +94,7 @@ body {
 .button {
     text-align: center;
     text-decoration: none;
-    padding: .8em;
+    padding: .8em .8em .6em;
     border: 1px solid var(--Color_Text);
     display: inline-block;
     min-width: 120px;
@@ -99,3 +108,9 @@ body {
     background-color: var(--Color_Text);
     color: var(--Color_White1);
 }
+
+.img--title {
+    width: 350px;
+    height: 96px;
+}
+
