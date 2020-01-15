@@ -108,3 +108,9 @@ body {
     background-color: var(--Color_Text);
     color: var(--Color_White1);
 }
+
+.img--title {
+    width: 350px;
+    height: 96px;
+}
+

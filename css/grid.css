@@ -33,3 +33,33 @@ body {
     text-align: left;
 }
 
+@media (max-width: 599px) {
+    #menu {
+        text-align: center;
+    }
+    #imgs img {
+        max-width: 80%;
+    }
+    #main {
+        grid-template-columns: 1fr;
+        grid-template-areas: "main--title" "main--text" "main--img";
+        text-align: center;
+    }
+    #main--title img {
+        width: 70%;
+        height: auto;
+    }
+    #main--img {
+        text-align: center;
+    }
+    #main--img img {
+        width: 90%;
+    }
+    #main--text {
+        text-align: center;
+        margin: 0;
+    }
+    #news {
+        width: 90%;
+    }
+}
