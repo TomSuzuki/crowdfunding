@@ -8,6 +8,10 @@
 	--Color_Thema: #FFD700;
 }
 
+* {
+	font-family: "ヒラギノ角ゴ Pro W1", "Hiragino Kaku Gothic ProN", "メイリオ", "Osaka", "游ゴシック", Meiryo, sans-serif;
+}
+
 body {
 	padding: 0;
 	margin: 0;
