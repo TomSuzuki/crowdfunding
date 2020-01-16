@@ -93,6 +93,10 @@ h3 {
 	margin-right: 20%;
 }
 
+#main--text p {
+	padding-bottom: 2em;
+}
+
 #news {
 	width: 100%;
 	text-align: center;
