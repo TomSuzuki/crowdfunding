@@ -1,75 +1,82 @@
 body {
-    display: grid;
+	display: grid;
 }
 
 #main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-template-areas: "main--title main--title" "main--img main--text";
-    padding: 2em;
-    box-sizing: border-box;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto auto;
+	grid-template-areas: "main--title main--title" "main--img main--text";
+	padding: 2em;
+	box-sizing: border-box;
 }
 
 #main--title {
-    width: 100%;
-    display: block;
-    grid-area: main--title;
-    padding: 2em;
-    box-sizing: border-box;
+	width: 100%;
+	display: block;
+	grid-area: main--title;
+	padding: 2em;
+	box-sizing: border-box;
 }
 
 #main--img {
-    grid-area: main--img;
-    box-sizing: border-box;
-    padding: 2em;
-    text-align: right;
+	grid-area: main--img;
+	box-sizing: border-box;
+	padding: 2em;
+	text-align: right;
 }
 
 #main--text {
-    grid-area: main--text;
-    box-sizing: border-box;
-    padding: 2em;
-    text-align: left;
+	grid-area: main--text;
+	box-sizing: border-box;
+	padding: 2em;
+	text-align: left;
 }
 
 @media (max-width: 599px) {
-    #menu {
-        text-align: center;
+	#menu {
+		text-align: center;
+		width: 100%;
+	}
+	#menu ul {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
 	}
 	#imgs {
 		width: 100%;
 		height: 65vh;
 		position: relative;
 	}
-    #imgs img {
+	#imgs img {
 		position: absolute;
 		top: 50%;
 		left: 50%;
 		transform: translateY(-50%) translateX(-50%);
 		max-width: 80%;
-    }
-    #main {
-        grid-template-columns: 1fr;
-        grid-template-areas: "main--title" "main--text" "main--img";
-        text-align: center;
-    }
-    #main--title img {
-        width: 70%;
-        height: auto;
-    }
-    #main--img {
-        text-align: center;
-    }
-    #main--img img {
-        width: 90%;
-    }
-    #main--text {
-        text-align: center;
-        margin: 0;
-    }
-    #news {
-		padding:0 8%;
+	}
+	#main {
+		grid-template-columns: 1fr;
+		grid-template-areas: "main--title" "main--text" "main--img";
+		text-align: center;
+	}
+	#main--title img {
+		width: 70%;
+		height: auto;
+	}
+	#main--img {
+		text-align: center;
+	}
+	#main--img img {
+		width: 90%;
+	}
+	#main--text {
+		text-align: center;
+		margin: 0;
+	}
+	#news {
+		padding: 0 8%;
 		width: 100%;
-    }
+	}
 }
