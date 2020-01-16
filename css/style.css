@@ -38,6 +38,10 @@ body {
     text-align: center;
 }
 
+#imgs img {
+    width: 75%;
+}
+
 #sns {
     margin-top: 3em;
     width: 100%;
