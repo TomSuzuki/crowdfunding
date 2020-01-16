@@ -1,73 +1,90 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HAPPAN | 時間の箸</title>
-    <link rel="shortcut icon" href="./img/favicon.ico">
-    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/grid.css" />
-    <link rel="stylesheet" type="text/css" href="./css/btn.css" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>HAPPAN | 時間の箸</title>
+	<link rel="shortcut icon" href="./img/favicon.ico">
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/style.css" />
+	<link rel="stylesheet" type="text/css" href="./css/grid.css" />
+	<link rel="stylesheet" type="text/css" href="./css/btn.css" />
+	<link rel="stylesheet" type="text/css" href="./css/fadeImg.css" />
+	<script type="text/javascript" src="./js/modal.js"></script>
+	<script type="text/javascript" src="./js/loadFile.js"></script>
+	<script type="text/javascript" src="./js/fadeImg.js"></script>
 </head>
 
 <body>
 
-    <div id="menu">
-        <ul>
-            <li><a href="">TOP</a></li>
-            <li><a href="#sns">SOCIAL</a></li>
-            <li><a href="#main">ABOUT</a></li>
-            <li><a href="#news">NEWS</a></li>
-        </ul>
-    </div>
+	<div id="bgg"></div>
 
-    <div id="imgs">
-        <img src="./img/test.png">
-    </div>
+	<div id="menu">
+		<ul>
+			<li><a href="">TOP</a></li>
+			<li><a href="#sns">SOCIAL</a></li>
+			<li><a href="#main">ABOUT</a></li>
+			<li><a href="#news">NEWS</a></li>
+		</ul>
+	</div>
 
-    <div id="sns">
-        <a class="btn-social-square btn-social-square--twitter"><i class="fab fa-twitter"></i></a>
-        <a class="btn-social-square btn-social-square--facebook"><i class="fab fa-facebook"></i></a>
-    </div>
+	<div id="imgs">
+		<div id="navi">
+			<div class="hiden"><img src="./img/logo.png"></div>
+			<div class="hiden"><img src="./img/product.png"></div>
+		</div>
+	</div>
 
-    <div id="main">
-        <div id="main--title">
-            <img class="img--title" src="./img/mt.png">
-        </div>
-        <div id="main--img">
-            <img src="./img/test3.png">
-            <img src="./img/test3.png">
-        </div>
-        <div id="main--text">
-            <h3>情報</h3>
-            <p>
-                サイズ： 縦18cm 、太さ3~10cm<br>
-                対象年齢： 5歳以上<br>
-                素材： プラスチック、水、ミネラルオイル、ラメ、着色料
-            </p>
-        </div>
-    </div>
+	<div id="sns">
+		<a class="btn-social-square btn-social-square--twitter" href="javascript:void(0);"
+			onclick="open_modal('./html/zyunbi.html')"><i class="fab fa-twitter"></i></a>
+		<a class="btn-social-square btn-social-square--facebook" href="javascript:void(0);"
+			onclick="open_modal('./html/zyunbi.html')"><i class="fab fa-facebook"></i></a>
+	</div>
 
-    <div id="sub">
-        <a class="button" href="">購入</a>
-        <a class="button" href="">詳細情報</a>
-    </div>
+	<div id="main">
+		<div id="main--title">
+			<img class="img--title" src="./img/mt.png">
+		</div>
+		<div id="main--img">
+			<img src="./img/product.png">
+			<img src="./img/cpic.jpg">
+		</div>
+		<div id="main--text">
+			<h3>情報</h3>
+			<p>
+				サイズ： 縦18cm 、太さ3~10cm<br>
+				対象年齢： 5歳以上<br>
+				素材： プラスチック、水、ミネラルオイル、ラメ、着色料
+			</p>
+		</div>
+	</div>
 
-    <div id="news">
-        <h2>ニュース</h2>
-        <ul>
-            <li>【2020/01/13】 Webページを公開しました。</li>
-            <li>【2020/01/06】 講義内で試作品の発表を行いました。</li>
-        </ul>
-    </div>
+	<div id="sub">
+		<a class="button" href="javascript:void(0);" onclick="open_modal('./html/get.html')">購入</a>
+		<a class="button" href="javascript:void(0);" onclick="open_modal('./html/info.html')">詳細情報</a>
+	</div>
 
-    <div id="foot">
-        <p>連絡先</p>
-        <ul>
-            <li>Mail: xxxxxxxx@xxxx.xxx.xxx</li>
-        </ul>
-    </div>
+	<div id="news">
+		<h2>ニュース</h2>
+		<ul>
+			<li>【2020/01/13】 Webページを公開しました。</li>
+			<li>【2020/01/06】 講義内で試作品の発表を行いました。</li>
+		</ul>
+	</div>
+
+	<div id="foot">
+		<p>連絡先</p>
+		<ul>
+			<li>Mail: xxxxxxxx@xxxx.xxx.xxx</li>
+		</ul>
+	</div>
+
+	<div id="modal" onclick="close_modal()" style="display: none;">
+		<div id="modal_window">
+			準備中...
+		</div>
+	</div>
 
 </body>
 
