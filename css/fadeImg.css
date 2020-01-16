@@ -1,0 +1,10 @@
+#navi　>　div{
+	position: absolute;
+}
+#navi .hiden{
+	display: none;
+	z-index: 1;
+}
+#navi .active{
+	z-index: 10;
+}

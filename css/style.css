@@ -58,6 +58,7 @@ body {
 #main--img img {
 	padding: .5em;
 	box-sizing: border-box;
+	width: 60%;
 }
 
 #main--text {
